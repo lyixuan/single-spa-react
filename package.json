@@ -20,7 +20,7 @@
     "start:people": "cd ./people/ && webpack-dev-server --config ./webpack.dev.js --port 8236",
     "start:planets": "cd ./planets/ && webpack-dev-server --config ./webpack.dev.js --port 8237",
     "start:fetchWithCache": "cd ./fetchWithCache/ && webpack-dev-server --config ./webpack.dev.js --port 8238",
-    "build": "npm run build:config && npm run build:common-deps && npm run build:navbar && npm run build:fetchWithCache",
+    "build": "npm run build:config && npm run build:common-deps && npm run build:navbar && npm run build:fetchWithCache && npm run build:people && npm run build:planets",
     "build:config": "webpack --config ./webpack.config.config.js -p",
     "build:common-deps": "webpack --config ./webpack.common-deps.config.js -p",
     "build:navbar": "cd ./navbar/ && webpack --config ./webpack.config.js -p",

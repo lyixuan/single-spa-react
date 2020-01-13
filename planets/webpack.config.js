@@ -46,6 +46,7 @@ module.exports = {
     ]),
   ],
   devtool: 'source-map',
+  // 打包排除
   externals: [
     /^@portal\/*/,
     /^lodash$/,
